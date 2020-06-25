@@ -67,7 +67,7 @@ end
 *   Item foo
 *   Item bar
 *   Item baz
-*   Item zip
+*   Item zop
 
 ### And an ordered list:
 
