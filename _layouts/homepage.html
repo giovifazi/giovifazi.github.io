@@ -32,10 +32,8 @@ gtag('config', '{{ site.google_analytics }}');
 
       <main id="content" class="main-content" role="main">
          {% for post in site.posts %}
-         <li>
             <a href="{{ post.url }}"><h1 id="header-1">{{ post.title }}</h1></a>
             <blockquote>{{ post.excerpt }}</blockquote>
-         </li>
          {% endfor %}
 
          <footer class="site-footer">
